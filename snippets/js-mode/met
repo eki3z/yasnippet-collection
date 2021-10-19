@@ -1,0 +1,10 @@
+# -*- mode: snippet;-*-
+# name: method
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: m
+# --
+
+${1:function}(${2:arg}) {
+  $3
+}
+$0

@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: Comment Big Block
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: cmmb
+# --
+
+/**
+|--------------------------------------------------
+| $1
+|--------------------------------------------------
+*/
+$0

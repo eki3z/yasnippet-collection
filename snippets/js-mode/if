@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: if
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: if
+# --
+if (${1:condition}) ${2:{$3\}}
+$0

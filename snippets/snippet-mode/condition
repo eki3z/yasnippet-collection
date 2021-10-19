@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: condtion
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: cd
+# --
+
+# condtion: ${1:condtion}
+

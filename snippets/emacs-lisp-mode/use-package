@@ -1,7 +1,8 @@
 # -*- mode: snippet -*-
-# contributor: Daniel Hitzel
 # name: use-package
+# contributor: liuyinz <liuyinz95@gmail.com>
 # key: up
+# key: use-package
 # --
-(use-package ${1:package-name}
-  :ensure t$0)
+(use-package ${1:package-name})
+$0

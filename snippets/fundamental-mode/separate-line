@@ -4,5 +4,5 @@
 # key: spl
 # --
 
-`comment-start` ${1:$(make-string (/ (- 59 (string-width yas-text)) 2) ?-)} ${1:SECTION} ${1:$(make-string (/ (- 67 (string-width yas-text)) 2) ?-)}
+`comment-start``comment-start` ${1:$(make-string (/ (- 59 (string-width yas-text)) 2) ?-)} ${1:SECTION} ${1:$(make-string (/ (- 67 (string-width yas-text)) 2) ?-)}
 $0

@@ -2,7 +2,6 @@
 # name: use-package
 # contributor: liuyinz <liuyinz95@gmail.com>
 # key: up
-# key: use-package
 # --
 (use-package ${1:package-name})
 $0

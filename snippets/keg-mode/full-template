@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: full-template
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: ft
+# --
+
+(source ${1:gnu melpa})
+
+(package
+ (${2:PACKAGE NAME}
+  (recipe . ($2 :fetcher ${3:github}
+                :repo "$4"
+                :files (${5::defaults (:exclude "$6")}))))
+$0)
+
+

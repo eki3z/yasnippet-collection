@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: dev-dependency
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: dev
+# --
+
+(dev-dependency $1)
+$0

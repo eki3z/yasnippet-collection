@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: package
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: pkg
+# --
+
+ (${1:PACKAGE NAME}
+  (recipe . ($1 :fetcher ${2:github}
+                :repo "$3"
+                :files (${4::defaults (:exclude "$5")}))))$0

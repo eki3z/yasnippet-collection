@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# name: bang (#!)
+# key: !
+# --
+
+#!/usr/bin/env ${1:$$(yas-auto-next (yas-choose-value
+(cl-case major-mode
+    (sh-mode
+     '("bash" "zsh" "sh"))
+    (python-mode
+     '("python" "python2" "python3"))
+    ((perl-mode cperl-mode)
+     '("perl"))
+    (applescript-mode
+     '("oascript"))
+    (t nil))
+))}
+
+$0

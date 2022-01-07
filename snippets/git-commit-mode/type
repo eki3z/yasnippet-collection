@@ -3,4 +3,4 @@
 # contributor: liuyinz <liuyinz95@gmail.com>
 # key: ty
 # --
-${1:$$(yas-choose-value '("fix" "feat" "docs" "style" "refactor" "test" "chore" "perf" "build" "ci" "revert"))}${2:(${3:SCOPE})}: $0
+${1:$$(yas-auto-next (yas-choose-value '("fix" "feat" "docs" "style" "refactor" "test" "chore" "perf" "build" "ci" "revert")))}${2:(${3:SCOPE})}: $0

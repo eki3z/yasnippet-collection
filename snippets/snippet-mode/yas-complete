@@ -4,9 +4,10 @@
 # key: yy
 # --
 
-${1:$$(yas-choose-value '(
+${1:$$(yas-auto-next (yas-choose-value '(
+"yas-auto-next"
 "yas-choose-value"
 "yas-field-value"
 "yas-text"
 "yas-escape-text"
-"yas-selected-text"))} $0
+"yas-selected-text")))} $0

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: POD comments
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: com
+# --
+=pod
+$1
+=cut
+$0
+
+

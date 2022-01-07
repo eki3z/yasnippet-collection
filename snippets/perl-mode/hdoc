@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: heredoc
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: hdoc
+# --
+
+$${1:VAR} = <<${2:$$(yas-auto-next (yas-choose-value '("\\"EOF\\"" "'EOF'")))};
+${3:STRING}
+EOF
+$0

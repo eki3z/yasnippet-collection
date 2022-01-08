@@ -1,7 +1,9 @@
 # -*- mode: snippet -*-
 # name: foreach ... { ... }
+# contributor: liuyinz <liuyinz95@gmail.com>
 # key: fore
 # --
-foreach my \$${1:x} (@${2:array}) {
-    ${3:# body...}
+foreach my \$${1:x} (${2:@${3:array}}) {
+    ${4:# body...}
 }
+$0

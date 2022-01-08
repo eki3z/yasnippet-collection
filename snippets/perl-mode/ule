@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: unlesse (...) { ... } else { ... }
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: ule
+# --
+unless ($1) {
+    $2
+} else {
+    $3
+}
+$0

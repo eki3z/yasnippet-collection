@@ -1,10 +1,10 @@
 # -*- mode: snippet -*-
-# name: if, elsif, else ...
+# name: unless, elsif, else ...
 # contributor: liuyinz <liuyinz95@gmail.com>
-# key: ifee
+# key: ulee
 # --
 
-if ($1) {
+unless ($1) {
 	${2:# body...}
 } elsif ($3) {
 	${4:# elsif...}
@@ -12,3 +12,5 @@ if ($1) {
 	${5:# else...}
 }
 $0
+
+

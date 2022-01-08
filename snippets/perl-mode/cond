@@ -1,9 +1,8 @@
 # -*- mode: snippet -*-
-# name: while (...) { ... }
+# name: cond (?:)
 # contributor: liuyinz <liuyinz95@gmail.com>
-# key: while
+# key: cond
 # --
-while ($1) {
-    $2
-}
+
+(${1:conditon}) ? ${2:then} : ${3:else}
 $0

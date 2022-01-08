@@ -1,9 +1,9 @@
 # -*- mode: snippet -*-
-# name: while (...) { ... }
+# name: when
 # contributor: liuyinz <liuyinz95@gmail.com>
-# key: while
+# key: when
 # --
-while ($1) {
-    $2
-}
+
+when (${1:condition}) {${2:statement}}
 $0
+

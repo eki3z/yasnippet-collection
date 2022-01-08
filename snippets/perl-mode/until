@@ -1,9 +1,11 @@
 # -*- mode: snippet -*-
-# name: while (...) { ... }
+# name: until
 # contributor: liuyinz <liuyinz95@gmail.com>
-# key: while
+# key: until
 # --
-while ($1) {
+
+until ($1) {
     $2
 }
 $0
+

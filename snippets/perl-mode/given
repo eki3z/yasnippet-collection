@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: given
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: given
+# --
+
+no warnings 'experimental';
+given (${1:$var}) {
+      when (${2:condition}) {${3:statement}}
+      $4
+      default {$5}
+}
+$0

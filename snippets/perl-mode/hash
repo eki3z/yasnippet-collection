@@ -1,9 +1,8 @@
 # -*- mode: snippet -*-
-# name: while (...) { ... }
+# name: hash (%)
 # contributor: liuyinz <liuyinz95@gmail.com>
-# key: while
+# key: %
 # --
-while ($1) {
-    $2
-}
+
+%${1:NAME} = ${2:($3, $4)};
 $0

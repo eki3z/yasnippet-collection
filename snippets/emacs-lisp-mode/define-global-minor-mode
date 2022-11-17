@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: define-global-minor-mode
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: defmg
+# --
+
+(define-global-minor-mode ${1:GLOBAL-MODE} ${2:MODE}
+  ${3:BODY})
+$0
+
+

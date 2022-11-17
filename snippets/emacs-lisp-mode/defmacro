@@ -1,10 +1,10 @@
 # -*- mode: snippet -*-
-# name: defun
+# name: defmacro
 # contributor: liuyinz <liuyinz95@gmail.com>
-# key: def
+# key: defo
 # --
 
-(defun ${1:fun} (${2:args})
+(defmacro ${1:name} (${2:args})
   "${3:docstring}"
-  ${4:(interactive${5: "${6:P}"})}
-  $0)
+  ${4:body})
+$0

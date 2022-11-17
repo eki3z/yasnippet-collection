@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: defvar-local
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: defl
+# --
+
+(defvar-local ${1:symbol} ${2:initvalue} "${3:docstring}")
+$0

@@ -1,5 +1,8 @@
 # -*- mode: snippet -*-
 # name: defvar
-# key: defvar
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: defv
 # --
+
 (defvar ${1:symbol} ${2:initvalue} "${3:docstring}")
+$0

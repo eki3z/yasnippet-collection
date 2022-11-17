@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: define-minor-mode
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: defmi
+# --
+
+(define-minor-mode ${1:MODE}
+  "${2:DOC}"
+  ${3:BODY})
+$0

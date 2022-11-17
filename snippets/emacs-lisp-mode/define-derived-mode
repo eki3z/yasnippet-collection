@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: define-derived-mode
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: defmd
+# --
+
+(define-derived-mode ${1:CHILD} ${2:PARENT} ${3:NAME}
+  "${4:DOC}"
+  ${5:BODY})
+$0

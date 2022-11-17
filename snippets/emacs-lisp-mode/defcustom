@@ -1,6 +1,8 @@
 # -*- mode: snippet -*-
-# contributor: Xah Lee (XahLee.org)
 # name: defcustom
-# key: defcustom
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: defu
 # --
+
 (defcustom ${1:symbol} ${2:standard} "${3:docstring}"${4: args})
+$0

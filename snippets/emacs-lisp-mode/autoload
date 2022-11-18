@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
-# contributor: Xah Lee (XahLee.org)
 # name: autoload
-# key: autoload
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: atl
 # --
+
 (autoload ${1:function} "${2:filename}"${3: "docstring"}${4: interactive}${5: type})

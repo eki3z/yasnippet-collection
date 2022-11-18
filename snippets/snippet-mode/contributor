@@ -4,4 +4,4 @@
 # key: ct
 # --
 
-# contributor: ${1:contributor}
+# contributor: ${1:`user-full-name` <`user-mail-address`>}

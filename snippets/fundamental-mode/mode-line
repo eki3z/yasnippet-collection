@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: mode-line
 # contributor: liuyinz <liuyinz95@gmail.com>
-# key: mode-line
+# key: ml
 # --
 # -*- mode:${1:conf}; -*-

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: magic-autoload
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: mga
+# --
+
+;;;###autoload${1: (autoload ${2:FUNCTION} "${3:FILE}")}

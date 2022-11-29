@@ -1,7 +1,6 @@
-# -*- mode: snippet; -*-
-# contributor: Xah Lee (XahLee.org)
+# -*- moed: snippet; -*-
+# contributor: liuyinz <liuyinz95@gmail.com>
 # name: add-hook
-# key: add-hook
 # key: ah
 # --
-(add-hook '${1:name}-hook ${2:'${3:function}})$0
+(add-hook '${1:hook} ${2:'${3:function}} $4)$0

@@ -4,5 +4,7 @@
 # key: deff
 # --
 
-(defface ${1:FACE} ${3:SPEC} "${2:DOC}")
+(defface ${1:FACE}
+  ${3:SPEC}
+  "${2:DOC}")
 $0

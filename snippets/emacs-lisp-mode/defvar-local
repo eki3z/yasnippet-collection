@@ -4,5 +4,6 @@
 # key: defl
 # --
 
-(defvar-local ${1:symbol} ${2:initvalue} "${3:docstring}")
+(defvar-local ${1:symbol} ${2:initvalue}
+  "${3:docstring}")
 $0

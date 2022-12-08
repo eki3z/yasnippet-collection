@@ -4,5 +4,7 @@
 # key: defu
 # --
 
-(defcustom ${1:symbol} ${2:standard} "${3:docstring}"${4: args})
-$0
+(defcustom ${1:symbol} ${4:standard}
+  ${5:""}
+  :type '$3
+  :group '$2)

@@ -4,5 +4,6 @@
 # key: defc
 # --
 
-(defconst ${1:symbol} ${2:initvalue} "${3:docstring}")
+(defconst ${1:symbol} ${2:initvalue}
+  "${3:docstring}")
 $0

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: jest-describe
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: jdes
+# group: jest
+# --
+
+describe('${1:name}', () => {
+  ${2:func}
+})

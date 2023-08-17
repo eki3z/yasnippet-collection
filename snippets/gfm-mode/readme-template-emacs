@@ -1,0 +1,54 @@
+# -*- mode: snippet -*-
+# name: readme-template-emacs
+# contributor : liuyinz<liuyinz95@gmail.com>
+# key: rte
+# --
+
+# ${1:package}
+
+[![License GPL 3](https://img.shields.io/badge/license-GPL_3-green.svg?style=flat)](LICENSE)
+[![MELPA](http://melpa.org/packages/$1-badge.svg)](http://melpa.org/#/$1)
+
+## Screenshot
+
+## Install
+
+### dependencies
+
+- Emacs, version >= ${2:version}
+
+### package
+
+- Manually
+
+Clone and add to \`load-path\`, require the package.
+
+- Melpa
+
+This package is available on [MELPA].
+Install with \`M-x package-install\` \`RET\` \`$1\` within Emacs.
+
+## Usage
+
+\`\`\`elisp
+;; Directly
+
+;; Or with use-package
+
+\`\`\`
+
+## Customization
+
+## Feature
+
+## Comparison
+
+## Todo
+
+## FAQ
+
+## License
+
+See [LICENSE](LICENSE).
+
+[melpa]: http://melpa.org/#/$1

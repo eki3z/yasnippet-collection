@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: this.props.propName
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: props
+# --
+
+this.props.propName

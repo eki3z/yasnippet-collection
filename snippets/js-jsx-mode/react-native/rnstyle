@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: react-native-style
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: rnstyle
+# --
+
+const styles = StyleSheet.create({
+  ${1:style}
+})

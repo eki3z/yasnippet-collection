@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Named function
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: nfn
+# --
+
+const ${1:name} = (${2:params}) => {$0}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: this.method.bind
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: bnd
+# --
+
+this.methodName = this.methodName.bind(this)

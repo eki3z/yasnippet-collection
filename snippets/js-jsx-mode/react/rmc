@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: reactFunctionMemoComponent
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: rmc
+# --
+
+
+import React, { memo } from 'react'
+
+export default memo((props) => (
+  <div>
+    $0
+  </div>
+))

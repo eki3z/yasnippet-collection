@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: import-react-useState
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: imrs
+# --
+
+import React, { useState } from 'react'

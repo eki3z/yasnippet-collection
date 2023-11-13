@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: console.trace
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: ctr
+# --
+
+console.trace(${1:object})

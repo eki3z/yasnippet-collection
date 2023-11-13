@@ -1,10 +1,10 @@
 # -*- mode: snippet -*-
-# name: jest-it
+# name: jest.describe
 # contributor: liuyinz <liuyinz95@gmail.com>
-# key: jit
+# key: desc
 # group: jest
 # --
 
-it('${1:name}', () => {
+describe('${1:name}', () => {
   ${2:func}
-}$3)
+})

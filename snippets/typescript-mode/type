@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: type
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: type
+# --
+
+type ${1:TYPE} = ${2:INITIAL}

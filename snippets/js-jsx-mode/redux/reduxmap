@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# contributor: liuyinz <liuyinz95@gmail.com>
+# name: mappingToProps
+# key: reduxmap
+# --
+
+const mapStateToProps = (state, ownProps) => ({
+
+})
+
+const mapDispatchToProps = (dispatch, ownProps) => ({
+
+})
+
+const mergeProps = (stateProps, dispatchProps, ownProps) => ({
+  ...ownProps,
+  ...dispatchProps,
+  ...stateProps,
+})

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: liuyinz <liuyinz95@gmail.com>
+# name: reduxConst
+# key: rxconst
+# --
+
+export const ${1:constantName} = '${1:constantName}'

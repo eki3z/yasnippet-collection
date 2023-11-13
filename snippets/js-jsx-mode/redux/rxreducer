@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# contributor: liuyinz <liuyinz95@gmail.com>
+# name: reduxReducer
+# key: rxreducer
+# --
+
+const initialState = {
+
+}
+
+export default (state = initialState, { type, payload }) => {
+  switch (type) {
+    case ${1:typeName}:
+      return { ...state, ...payload }
+
+    default:
+      return state
+  }
+}

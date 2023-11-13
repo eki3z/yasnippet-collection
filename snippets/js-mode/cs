@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: const states
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: cs
+# --
+
+const {$0} = this.states

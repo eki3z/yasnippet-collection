@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: import-reactdom
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: imrd
+# --
+
+import ReactDOM from 'react-dom'

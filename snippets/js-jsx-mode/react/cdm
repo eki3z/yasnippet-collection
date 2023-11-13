@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: componentDidMount
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: cdm
+# --
+
+componentDidMount = () => { }

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: componentWillUnmount
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: cwun
+# --
+
+componentWillUnmount = () => { }

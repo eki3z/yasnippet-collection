@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: componentDidUpdate
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: cdup
+# --
+
+componentDidUpdate = (prevProps, prevState) => { }

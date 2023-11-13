@@ -1,10 +1,7 @@
 # -*- mode: snippet -*-
-# uuid: 6ead1d1a-bf84-4a3d-94fb-59ad97d55414
-# contributor: Jimmy Yuen Ho Wong <wyuenho@gmail.com>
+# contributor: liuyinz <liuyinz95@gmail.com>
 # name: setTimeOut
 # key: sto
 # --
 
-setTimeout(() => {
-  ${2}
-}, ${1:delayInms})
+setTimeout(() => {${0}}, ${1:delayInms})

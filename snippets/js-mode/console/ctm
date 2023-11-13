@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: console.time
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: ctm
+# --
+
+console.time('${1:object}')

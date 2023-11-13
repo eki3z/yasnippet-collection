@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: hocComponent
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: hoc
+# --
+
+import React from 'react'
+import PropTypes from 'prop-types'
+
+export default (WrappedComponent) => {
+  const hocComponent = ({ ...props }) => <WrappedComponent {...props} />
+
+  hocComponent.propTypes = {}
+
+  return hocComponent
+}

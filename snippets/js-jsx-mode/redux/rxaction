@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: reduxAction
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: rxaction
+# --
+
+export const ${1:actionName} = (payload) => ({
+  type: ${1:$((yas-snake-case yas-text))},
+  payload
+})

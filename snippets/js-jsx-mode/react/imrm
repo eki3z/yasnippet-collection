@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: import-react-memo
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: key
+# --
+
+import React, { memo } from 'react'

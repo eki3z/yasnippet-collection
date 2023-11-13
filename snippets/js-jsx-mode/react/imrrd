@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: import-react-router-dom
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: imrrd
+# --
+
+import { $1 } from 'react-router-dom'

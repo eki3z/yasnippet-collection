@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: import-react-component
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: imrc
+# --
+
+import React, { Component } from 'react'

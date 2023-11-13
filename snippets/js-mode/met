@@ -1,10 +1,9 @@
-# -*- mode: snippet;-*-
-# name: method
+# -*- mode: snippet -*-
 # contributor: liuyinz <liuyinz95@gmail.com>
-# key: m
+# name: method
+# key: met
 # --
 
-${1:function}(${2:arg}) {
-  $3
+${1:methodName} = (${2:params}) => {
+  ${0}
 }
-$0

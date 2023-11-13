@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: const.react.createRef
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: ccref
+# --
+
+const ref = React.createRef()

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: import-react-native
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: imrn
+# --
+
+import { $1 } from 'react-native'

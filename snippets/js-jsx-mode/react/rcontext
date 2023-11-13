@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: react.createContext
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: rcontext
+# --
+
+const $1 = React.createContext()

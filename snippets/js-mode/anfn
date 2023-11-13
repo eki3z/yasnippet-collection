@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: anonymous function
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: anfn
+# --
+
+(${1:params}) => {$2}
+$0

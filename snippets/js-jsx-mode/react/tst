@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: this.state
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: tst
+# --
+
+this.state= { }
+

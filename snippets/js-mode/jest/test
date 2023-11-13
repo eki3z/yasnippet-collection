@@ -1,10 +1,10 @@
 # -*- mode: snippet -*-
-# name: jest-test
+# name: jest.test
 # contributor: liuyinz <liuyinz95@gmail.com>
-# key: jtest
+# key: test
 # group: jest
 # --
 
-test('${1:name}', () => {
+test('should ${1:name}', () => {
   ${2:func}
 }$3)

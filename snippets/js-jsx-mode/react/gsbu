@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: getSnapshotBeforeUpdate
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: gsbu
+# --
+
+getSnapshotBeforeUpdate = (prevProps, prevState) => { }

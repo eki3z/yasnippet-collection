@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: liuyinz <liuyinz95@gmail.com>
+# name: import redux statement
+# key: redux
+# --
+
+import { connect } from 'react-redux'

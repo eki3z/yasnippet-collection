@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: const props
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: cp
+# --
+
+const {$0} = thos.props

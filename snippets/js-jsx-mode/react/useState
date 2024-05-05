@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: Named function
+# name: useState
 # contributor: liuyinz <liuyinz95@gmail.com>
-# key: nfn
+# key: ust
 # --
 
-const ${1:name} = (${2:params}) => {$0}
+const [$1, $2] = useState($0)

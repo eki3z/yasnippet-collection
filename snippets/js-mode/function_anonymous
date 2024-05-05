@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
+# name: anonymous function
 # contributor: liuyinz <liuyinz95@gmail.com>
-# name: importDestructing
-# key: imd
+# key: anfn
 # --
 
-import { $2 } from '${1:module}'$0
+(${1}) => {$0}

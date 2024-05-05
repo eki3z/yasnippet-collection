@@ -1,7 +1,9 @@
 # -*- mode: snippet -*-
-# name: const props
+# name: multi-comment
 # contributor: liuyinz <liuyinz95@gmail.com>
-# key: cp
+# key: com
 # --
 
-const {$0} = thos.props
+/*
+ * $0
+ */

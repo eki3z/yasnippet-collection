@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: import-react-useState
 # contributor: liuyinz <liuyinz95@gmail.com>
-# key: imrs
+# name: exportDestructure
+# key: exd
 # --
 
-import { useState } from 'react'
+export { $2 } from '${1:module}'$0

@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: import-react-useState
+# name: const_props
 # contributor: liuyinz <liuyinz95@gmail.com>
-# key: imrs
+# key: cp
 # --
 
-import { useState } from 'react'
+const {$0} = thos.props

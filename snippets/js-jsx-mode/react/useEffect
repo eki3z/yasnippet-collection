@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: f(=>)
+# name: useEffect
 # contributor: liuyinz <liuyinz95@gmail.com>
-# key: fa
+# key: uef
 # --
 
-${1:(${2:arg})} => ${3:{$4\}}$0
+useEffect((${1}) => {$0},[$1])

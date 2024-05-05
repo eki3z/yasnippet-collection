@@ -1,8 +1,7 @@
 # -*- mode: snippet -*-
-# name: anonymous function
 # contributor: liuyinz <liuyinz95@gmail.com>
-# key: anfn
+# name: importDestructure
+# key: imd
 # --
 
-(${1:params}) => {$2}
-$0
+import { $2 } from '${1:module}'$0

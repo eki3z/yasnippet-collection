@@ -2,5 +2,4 @@
 # name: const
 # key: const
 # --
-const ${1:name} = ${2:initial};
-$0
+const ${1:name} = ${0};

@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
+# name: Named function
 # contributor: liuyinz <liuyinz95@gmail.com>
-# name: exportDestructing
-# key: exd
+# key: nfn
 # --
 
-export { $2 } from '${1:module}'$0
+const ${1:name} = (${2}) => {$0}

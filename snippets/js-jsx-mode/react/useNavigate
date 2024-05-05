@@ -1,9 +1,7 @@
 # -*- mode: snippet -*-
-# name: (/* ... */) comment
+# name: useNavigate
 # contributor: liuyinz <liuyinz95@gmail.com>
-# key: com
+# key: ung
 # --
 
-/*
- * $0
- */
+const ${1:name} = useNavigate();

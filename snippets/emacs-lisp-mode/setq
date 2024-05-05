@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: setq
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: s
+# --
+
+(setq ${1:var} ${2:value})

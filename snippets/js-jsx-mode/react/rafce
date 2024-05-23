@@ -4,10 +4,10 @@
 # key: rafce
 # --
 
-const ${1:`(yas-jsx-get-class-name-by-file-name)`} = (${2:props}) => {
+const ${1:`(yas-jsx-get-class-name-by-file-name)`} = ($0) => {
   return (
     <div>
-      $0
+      $1
     </div>
   )
 }

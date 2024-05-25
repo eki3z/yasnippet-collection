@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: conditional_operator
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: cond
+# --
+
+${1:condition} ? ${2:then} : ${3:else}

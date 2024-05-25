@@ -4,14 +4,10 @@
 # key: rafc
 # --
 
-import React from 'react'
-
-const ${1:`(yas-jsx-get-class-name-by-file-name)`} = (props) => {
+const ${1:`(yas-jsx-get-class-name-by-file-name)`} = ($0) => {
   return (
     <div>
-      $0
+      $1
     </div>
   )
 }
-
-export default $1

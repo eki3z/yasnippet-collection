@@ -1,10 +1,12 @@
 # -*- mode: snippet; require-final-newline: nil -*-
-# name: try_catch
-# key: try
+# name: try_catch_finally
+# key: tryf
 # --
 
 try {
   $1
 } catch (err) {
+  $2
+} finally {
   $0
 }

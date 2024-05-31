@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # contributor: liuyinz <liuyinz95@gmail.com>
-# name: exportDefault
-# key: exp
+# name: export_default
+# key: exdf
 # --
 
-export default $1$0
+export default $0

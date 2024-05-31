@@ -1,9 +1,0 @@
-# -*- mode: snippet -*-
-# contributor: liuyinz <liuyinz95@gmail.com>
-# name: exportNamedFunction
-# key: enf
-# --
-
-export const ${1:functionName} = (${2:params}) => {
-  $0
-}

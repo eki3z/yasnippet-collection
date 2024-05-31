@@ -1,7 +1,9 @@
 # -*- mode: snippet -*-
+# name: async_function_arrow
 # contributor: liuyinz <liuyinz95@gmail.com>
-# name: export_destructure
-# key: exd
+# key: afa
 # --
 
-export { $2 } from '${1:module}'$0
+async (${1}) => {$0}
+
+

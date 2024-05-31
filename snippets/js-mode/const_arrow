@@ -1,9 +1,10 @@
 # -*- mode: snippet -*-
+# name: const_arrow
 # contributor: liuyinz <liuyinz95@gmail.com>
-# name: exportDefaultFunction
-# key: edf
+# key: ca
 # --
 
-export default (${1:params}) => {
+const ${1:name} = (${2:params}) => {
   $0
 }
+

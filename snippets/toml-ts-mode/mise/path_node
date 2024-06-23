@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: path_node
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: pnode
+# --
+
+[env]
+_.path = ["./node_modules/.bin"]
+

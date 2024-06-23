@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: useReducer
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: urd
+# --
+
+const [$1, $2] = useReducer($0)

@@ -1,0 +1,21 @@
+# -*- mode: snippet -*-
+# name: astro_front_matter
+# contributor: liuyinz <liuyinz95@gmail.com>
+# key: ast
+# --
+
+---
+title: '$1'
+description: '$2'
+pubDate: '$3'
+updateDate:
+heroImage:
+src: ''
+alt: ''
+ogImage:
+tags: [""]
+series:
+draft: true
+hide:
+order:
+---

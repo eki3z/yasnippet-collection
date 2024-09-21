@@ -3,7 +3,6 @@
 # key: bang
 # --
 
-#!/usr/bin/env ${1:$$(yas-auto-next (yas-choose-value
-'("bash" "zsh" "sh" "python" "python2" "python3" "perl" "zx" "oascript")))}
+#!/usr/bin/env ${1:cmd}
 
 $0

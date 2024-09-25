@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: function_arrow
+# name: string_interpolation
 # contributor: liuyinz <liuyinz95@gmail.com>
-# key: fa
+# key: si
 # --
 
-(${1}) => ${2:\{ $0 \}}
+\$\{$1\}$0

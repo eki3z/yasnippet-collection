@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: function_arrow
+# name: await
 # contributor: liuyinz <liuyinz95@gmail.com>
-# key: fa
+# key: aw
 # --
 
-(${1}) => ${2:\{ $0 \}}
+await $0

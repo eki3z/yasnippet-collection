@@ -1,13 +1,13 @@
 ;;; yasnippet-collection.el --- Collection of yasnippet -*- lexical-binding: t -*-
 
-;; Copyright (C) 2021 liuyinz
+;; Copyright (C) 2021-2025 Eki Zhang
 
-;; Author: liuyinz <liuyinz95@gmail.com>
-;; Maintainer: liuyinz <liuyinz95@gmail.com>
+;; Author: Eki Zhang <liuyinz95@gmail.com>
+;; Maintainer: Eki Zhang <liuyinz95@gmail.com>
 ;; Created: 2021-10-19 18:16:27
 ;; Version: 0.1.0
 ;; Package-Requires: ((emacs "27") (yasnippet "0.8.0"))
-;; Homepage: https://github.com/liuyinz/yasnippet-collection
+;; Homepage: https://github.com/eki3z/yasnippet-collection
 
 ;; This file is not a part of GNU Emacsl.
 

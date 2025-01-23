@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: remove-hook
-# contributor: liuyinz <liuyinz95@gmail.com>
+# contributor: Eki Zhang <liuyinz95@gmail.com>
 # key: rh
 # --
 (remove-hook '${1:hook} ${2:'${3:function}}$4)$0

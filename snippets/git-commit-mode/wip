@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: wip
-# contributor: liuyinz <liuyinz95@gmail.com>
+# contributor: Eki Zhang <liuyinz95@gmail.com>
 # key: wi
 # --
 wip${1:(${2:FEAT})}: $0

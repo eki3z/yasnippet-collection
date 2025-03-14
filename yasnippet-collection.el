@@ -34,12 +34,13 @@
   (expand-file-name
    "snippets"
    (file-name-directory
+    (file-truename
     ;; Copied from ‘f-this-file’ from f.el.
     (cond
      (load-in-progress load-file-name)
      ((and (boundp 'byte-compile-current-file) byte-compile-current-file)
       byte-compile-current-file)
-     (:else (buffer-file-name))))))
+     (:else (buffer-file-name)))))))
 
 ;;;###autoload
 (defun yasnippet-collection-initialize ()
